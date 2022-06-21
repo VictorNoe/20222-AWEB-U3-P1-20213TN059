@@ -1,4 +1,5 @@
-const btnPulse = document.getElementByID('btn-pulse');
-btnPulse.addEventListene('click',()=>{
-    alert('aaaaaa ,(');
+const btnPulse = document.getElementById('btn-pulse');
+btnPulse.addEventListener('click', ()=>{
+    alert ('Ahhhhh me pulsaste :(');
+
 })
